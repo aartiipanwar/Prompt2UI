@@ -1,5 +1,5 @@
 export const generateUI = async (prompt) => {
-    const res = await fetch(" https://prompt2ui-auqi.onrender.com/api/generate-ui", {
+    const res = await fetch("https://prompt2ui-auqi.onrender.com/api/generate-ui", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
